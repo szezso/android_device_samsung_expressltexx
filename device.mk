@@ -112,6 +112,11 @@ PRODUCT_PACKAGES += qrngd
 # qcmediaplayer
 PRODUCT_PACKAGES += qcmediaplayer
 
+# IPv6 tethering
+PRODUCT_PACKAGES += \
+    ebtables \
+    ethertypes
+
 # GPS/location security configuration file
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/sec_config:system/etc/sec_config
