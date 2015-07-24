@@ -181,6 +181,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     persist.audio.lowlatency.rec=false \
     audio.gapless.playback.disable=true \
     qcom.hw.aac.encoder=true \
+    audio.offload.disable=1 \
     ro.config.max_starting_bg=8
 
 # RIL
