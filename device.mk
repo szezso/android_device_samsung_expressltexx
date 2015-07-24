@@ -101,16 +101,12 @@ PRODUCT_PACKAGES += \
 	libgenlock
 
 # Torch
-PRODUCT_PACKAGES += Torch
+PRODUCT_PACKAGES += \
+    Torch
 
 # Lights
-PRODUCT_PACKAGES += lights.msm8960
-
-# QRNGD
-PRODUCT_PACKAGES += qrngd
-
-# qcmediaplayer
-PRODUCT_PACKAGES += qcmediaplayer
+PRODUCT_PACKAGES += \
+    lights.msm8960
 
 # IPv6 tethering
 PRODUCT_PACKAGES += \
